@@ -635,7 +635,7 @@ nav ul li a:hover::after {
 }
 
 /* ---------------CSS for small screen--------------*/
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   #header {
     height: 100vh;
       background-image: url(images/TBBC_img.jpg);
@@ -645,7 +645,7 @@ nav ul li a:hover::after {
     list-style: none;
     margin: 10px 12px;
   }
-} 
+}  */
 
 /* ---------------CSS for medium screen-------------- */
 @media only screen and (max-width: 600px) {

@@ -634,8 +634,20 @@ nav ul li a:hover::after {
   color: #fff;
 }
 
+/* ---------------CSS for small screen--------------*/
+@media only screen and (max-width: 900px) {
+  #header {
+    height: 100vh;
+      background-image: url(images/TBBC_img.jpg);
+  }
+   nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 12px;
+  }
+} 
 
-/* ---------------CSS for small screen-------------- */
+/* ---------------CSS for medium screen-------------- */
 @media only screen and (max-width: 600px) {
   #header {
     height: 100vh;

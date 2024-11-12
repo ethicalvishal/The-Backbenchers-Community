@@ -12,7 +12,8 @@ html {
 body {
     background: #362e2e;
     color: #fff;
-    width: 100%;
+    font-size: 16px;
+    width: 100%
 }
 
 #header {
